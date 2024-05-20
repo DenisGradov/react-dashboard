@@ -1,10 +1,20 @@
+import { useState } from "react";
 import "./App.css";
 import style from "./app.module.scss";
+import { RiCloseFill, RiMenuFill } from "react-icons/ri";
 function App() {
+  const [burgerMenu, setBurgerMenu] = useState(false);
+  function handleBurgerStatusChange() {
+    setBurgerMenu(!burgerMenu);
+  }
   return (
     <>
       <div className={style["wrapper"]}>
-        <div className={style["wrapper-left"]}>
+        <div
+          className={`${style["wrapper-left"]} ${
+            burgerMenu ? style["burgerOn"] : style["burgerOff"]
+          }`}
+        >
           <div className={style["left-menu"]}>
             <div className={style["logo"]}>
               <img
@@ -322,6 +332,20 @@ function App() {
               </div>
             </div>
           </div>
+        </div>
+        <div className={style["burgerMenu"]}>
+          {burgerMenu && (
+            <RiCloseFill
+              onClick={handleBurgerStatusChange}
+              className={style["burgerMenu__icon"]}
+            />
+          )}
+          {!burgerMenu && (
+            <RiMenuFill
+              onClick={handleBurgerStatusChange}
+              className={style["burgerMenu__icon"]}
+            />
+          )}
         </div>
       </div>
     </>
