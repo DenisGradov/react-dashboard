@@ -20,7 +20,7 @@ function App() {
               <img
                 className={style["logo__img"]}
                 alt="logo"
-                src="/assets/logo.png"
+                src="./assets/logo.png"
               />
               <h3 className={style["logo__version"]}>v.01</h3>
             </div>
@@ -29,7 +29,7 @@ function App() {
                 <img
                   className={style["navigation-item__icon"]}
                   alt="icon"
-                  src="/assets/icons/key-square.png"
+                  src="./assets/icons/key-square.png"
                 />
                 <h2 className={style["navigation-item__text"]}>Dashboard</h2>
               </div>
@@ -37,13 +37,13 @@ function App() {
                 <img
                   className={style["navigation-item__icon"]}
                   alt="icon"
-                  src="/assets/icons/3d-square 1.png"
+                  src="./assets/icons/3d-square 1.png"
                 />
                 <h2 className={style["navigation-item__text"]}>Product</h2>
                 <img
                   className={style["navigation-item__arrow"]}
                   alt="icon"
-                  src="/assets/icons/chevron-right 2.png"
+                  src="./assets/icons/chevron-right 2.png"
                 />
               </div>
               <div
@@ -52,7 +52,7 @@ function App() {
                 <img
                   className={style["navigation-item__icon"]}
                   alt="icon"
-                  src="/assets/icons/user-square 1.png"
+                  src="./assets/icons/user-square 1.png"
                 />
                 <h2 className={style["navigation-item-active__text"]}>
                   Customers
@@ -60,53 +60,53 @@ function App() {
                 <img
                   className={style["navigation-item__arrow"]}
                   alt="icon"
-                  src="/assets/icons/chevron-right 2w.png"
+                  src="./assets/icons/chevron-right 2w.png"
                 />
               </div>
               <div className={style["navigation-item"]}>
                 <img
                   className={style["navigation-item__icon"]}
                   alt="icon"
-                  src="/assets/icons/wallet-money 2.png"
+                  src="./assets/icons/wallet-money 2.png"
                 />
                 <h2 className={style["navigation-item__text"]}>Income</h2>
                 <img
                   className={style["navigation-item__arrow"]}
                   alt="icon"
-                  src="/assets/icons/chevron-right 2.png"
+                  src="./assets/icons/chevron-right 2.png"
                 />
               </div>
               <div className={style["navigation-item"]}>
                 <img
                   className={style["navigation-item__icon"]}
                   alt="icon"
-                  src="/assets/icons/discount-shape 1.png"
+                  src="./assets/icons/discount-shape 1.png"
                 />
                 <h2 className={style["navigation-item__text"]}>Promote</h2>
                 <img
                   className={style["navigation-item__arrow"]}
                   alt="icon"
-                  src="/assets/icons/chevron-right 2.png"
+                  src="./assets/icons/chevron-right 2.png"
                 />
               </div>
               <div className={style["navigation-item"]}>
                 <img
                   className={style["navigation-item__icon"]}
                   alt="icon"
-                  src="/assets/icons/message-question 1.png"
+                  src="./assets/icons/message-question 1.png"
                 />
                 <h2 className={style["navigation-item__text"]}>Help</h2>
                 <img
                   className={style["navigation-item__arrow"]}
                   alt="icon"
-                  src="/assets/icons/chevron-right 2.png"
+                  src="./assets/icons/chevron-right 2.png"
                 />
               </div>
             </div>
             <div className={style["projectManager"]}>
               <img
                 alt="Evano"
-                src="/assets/avatars/Pm.png"
+                src="./assets/avatars/Pm.png"
                 className={style["projectManager__logo"]}
               />
               <div className={style["projectManager-info"]}>
@@ -135,7 +135,7 @@ function App() {
                 ></input>
                 <img
                   className={style["searchBlock__icon"]}
-                  src="/assets/icons/search 1.png"
+                  src="./assets/icons/search 1.png"
                 />
               </div>
             </div>
