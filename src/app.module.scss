@@ -99,8 +99,199 @@
     }
   }
   &-right {
+    display: flex;
+    flex-direction: column;
     width: 100%;
     height: 100%;
+    padding: 41px 71px;
     background-color: #fafbff;
+    &__welcome {
+      font-weight: 500;
+      font-size: 24px;
+      color: #000000;
+    }
+    .allCustomers {
+      position: relative;
+      overflow: hidden;
+      margin-top: 51px;
+      padding: 30px 38px;
+      max-width: 968px;
+      width: 100%;
+      background-color: #ffffff;
+      border-radius: 30px;
+      &-top {
+        display: flex;
+        justify-content: space-between;
+        .textBlock {
+          &__title {
+            font-weight: 700;
+            font-size: 22px;
+            color: #000000;
+          }
+          &__greenText {
+            margin-top: 7px;
+            font-weight: 400;
+            font-size: 14px;
+            color: #16c098;
+          }
+        }
+        .searchBlock {
+          display: flex;
+          align-items: center;
+          position: relative;
+          &__input {
+            padding: 10px 40px;
+            border-radius: 10px;
+            background-color: #f9fbff;
+          }
+          &__icon {
+            position: absolute;
+            left: 8px;
+          }
+        }
+      }
+      &-columnTitles {
+        margin-top: 40px;
+        display: flex;
+        justify-content: space-between;
+        &__text {
+          font-family: 600;
+          color: #b5b7c0;
+          font-size: 14px;
+          &:nth-child(1) {
+            flex-basis: 22.5%;
+          }
+          &:nth-child(2) {
+            flex-basis: 19%;
+          }
+          &:nth-child(3) {
+            flex-basis: 15%;
+          }
+          &:nth-child(4) {
+            flex-basis: 20%;
+          }
+          &:nth-child(5) {
+            flex-basis: 16%;
+          }
+          &:nth-child(6) {
+            flex: 1;
+          }
+        }
+      }
+      &__bigLine {
+        position: absolute;
+        left: 0px;
+        margin: 14px 0 10px 0;
+        width: 100vw;
+        height: 1px;
+        background-color: #eeeeee;
+      }
+      &__smallLine {
+        margin: 14px 0 10px 0;
+        width: 100%;
+        height: 1px;
+        background-color: #eeeeee;
+      }
+      &-customer {
+        margin: 10px 0;
+        display: flex;
+        align-items: center;
+        &:nth-child(1) {
+          margin-top: 38px;
+        }
+        &__info {
+          text-align: left;
+          font-size: 14px;
+          font-weight: 600;
+          color: #292d32;
+          &:nth-child(1) {
+            flex-basis: 22.5%;
+          }
+          &:nth-child(2) {
+            flex-basis: 19%;
+          }
+          &:nth-child(3) {
+            flex-basis: 15%;
+          }
+          &:nth-child(4) {
+            flex-basis: 20%;
+          }
+          &:nth-child(5) {
+            flex: 1;
+          }
+          &:nth-child(6) {
+            flex: 1;
+          }
+        }
+        &__active {
+          padding: 4px 18px;
+          background-color: #16c09838;
+          border: 1px solid #00b087;
+          border-radius: 4px;
+          color: #008767;
+        }
+        &__notActive {
+          padding: 4px 13px;
+          background-color: #ffc5c5;
+          border: 1px solid #df0404;
+          border-radius: 4px;
+          color: #df0404;
+        }
+      }
+      &-pagination {
+        margin-top: 32px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .pagination__dataInfo {
+          color: #b5b7c0;
+          font-weight: 600;
+          font-size: 14px;
+        }
+        .pagination-buttons {
+          display: flex;
+          align-items: center;
+          &__button {
+            margin: 0 6px 0 6px;
+            padding: 6px 9px;
+            color: #404b52;
+            background-color: #f5f5f5;
+            border: 1px solid #eeeeee;
+            border-radius: 4px;
+            cursor: pointer;
+            transition-duration: 0.3s;
+            &:hover {
+              transform: scale(1.05);
+              transition-duration: 0.3s;
+            }
+          }
+          &__activeButton {
+            margin: 0 6px 0 6px;
+            padding: 6px 10px;
+            color: #ffffff;
+            background-color: #5932ea;
+            border: 1px solid #5932ea;
+            border-radius: 4px;
+            cursor: pointer;
+            transition-duration: 0.3s;
+            &:hover {
+              transform: scale(1.05);
+              transition-duration: 0.3s;
+            }
+          }
+          &__text {
+            margin: 4px 6px 0 6px;
+            font-size: 12px;
+            color: #000000;
+            cursor: pointer;
+            transition-duration: 0.3s;
+            &:hover {
+              transform: scale(1.05);
+              transition-duration: 0.3s;
+            }
+          }
+        }
+      }
+    }
   }
 }
