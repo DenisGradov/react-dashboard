@@ -2,4 +2,4 @@
 ## README.md тут особо и не нужен если честно
 
 ## [краткий видео-обзор](https://youtu.be/9J07inqeFz8)
-## [сайт]([https://youtu.be/9J07inqeFz8](https://denisgradov.github.io/react-dashboard/))
+## [сайт](https://denisgradov.github.io/react-dashboard/)
